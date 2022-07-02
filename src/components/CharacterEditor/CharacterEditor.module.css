@@ -3,6 +3,14 @@
   padding-bottom: 64px;
 }
 
+.characterEditor .header {
+  width: 65%;
+}
+
+.characterEditor .controlColumn {
+  width: 50%;
+}
+
 .maxWidthWrapper {
 }
 
@@ -23,7 +31,12 @@
   margin: 0;
 }
 
-.characterWrapper {
+.characterEditor .characterWrapper {
+    width: 50%;
+    position: fixed;
+    top: 120px;
+    right: -200px;
+    height: 500px;
 }
 
 .controlColumn {
